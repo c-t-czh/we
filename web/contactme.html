@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hustcsczh</title>
+</head>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 样式表头 */
+header {
+  padding: 30px;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 40%;
+  height: 750px; /* only for demonstration, should be removed */
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding-top: 80px;
+  width: 60%;
+  height: 750px; /* only for demonstration, should be removed */
+}
+
+/* 清除列后的浮点数 */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color:rgba(43, 134, 137, 0.288);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:rgb(89, 228, 233);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top:70px;
+}
+
+.sidenav a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 5px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 10px;}
+}
+</style>
+<body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a style="font-size: 20px;" href="czh.html">个人介绍</a>
+    <a style="font-size: 20px;" href="mybro.html">我和挚友</a>
+    <a style="font-size: 20px;" href="mylife.html">校园景色</a>
+    <a style="font-size: 20px;" href="myhometown.html">我的家乡</a>
+    <a style="font-size: 20px;" href="..\index.html">返回首页</a>
+
+</div>
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "120px";
+  document.getElementById("main").style.marginLeft = "150px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<style>
+body {
+  background-image: url("../image/R-C.jpg");
+  background-repeat: no-repeat;
+}
+</style>
+</header>
+
+<section>
+  <nav>
+    <div class="lixi">
+    <ul>
+        <li>
+        <a href="mailto:hustczh@outlook.com" style="color: aquamarine;">&#9993;Email-outlook</a>
+        </li>
+        <li>
+        <h3 style="color: aquamarine;">&#128539;QQ</h3>
+        <img style="height: 400px;" src="../image\1701241143783_temp_qrcode_share_9993.png" alt="QQ">
+        </li>
+        <li>
+        <h3 style="color: aquamarine;">&#128237;邮箱<br><br>&emsp;u202315513@hust.edu.cn</>
+        </li>
+  </ul>
+</div>
+  </nav>
+  
+  <article>
+   <div  class="houji">
+    <img style="width:250px ;height: 250px;" src="../image\e16fc503gy1h7o8qlhbp2g208c08c0sy.gif" alt="1">
+    
+    <img  style="width:250px ;height: 250px;" src="../image\e16fc503gy1h7o8qlqzl2g208c08cdg2.gif" alt="">
+</div>
+  </article>
+</section>
+
+<footer>
+  <p>hustcsczh</p>
+</footer>
+
+</body>
+</html>
+

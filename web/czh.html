@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hustcsczh</title>
+</head>
+<style>
+  img {
+  opacity: 1.0;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color:rgb(133, 208, 225);/*背景*/
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color:rgb(135, 288, 255);/*除了下拉其他字体颜色*/
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color:rgb(135, 288, 255);/*菜单页颜色*/
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color:rgb(135, 288, 255);/*菜单里面字体颜色*/
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/*鼠标拖到到导航鼠标悬停时块背景颜色*/
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(102, 209, 163);
+  color: rgb(252, 247, 247);/*此时字体颜色*/
+}
+
+.dropdown-content a:hover {
+  background-color:rgb(64, 201, 232);/*脱下导航鼠标悬停时块背景颜色*/
+  color:white;/*此时字体颜色*/
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+<body>
+  
+<div class="topnav" id="myTopnav">
+  <a style="color: yellow;" href="czh.html">个人介绍</a>
+   <a href="mybro.html">我和挚友</a>
+   <a href="mylife.html">校园景色</a>
+   <div class="dropdown">
+    <button class="dropbtn">我的家乡<i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="myhometown.html">家乡介绍</a>
+      <a href="myhomrtownview.html">家乡&美景</a>
+    </div>
+  </div> 
+  <a href="contactme.html">联系方式</a>
+  <div style="float:right;">
+    <a href="..\index.html">返回首页</a>
+  </div>
+</div>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<head>
+        <style type="text/css">
+            body 
+            {
+                background-image: url('../image/R-C (1).jpg');
+                background-repeat:repeat;
+            }
+        </style>
+</head>
+
+<div class="aihao">
+    <h2 >兴趣爱好</h2>
+    <hr>
+    <ul>
+        <li style="font-size: 20px;">足球&#9917;</li>
+            <p>主队<strong style="color: darkturquoise;">利物浦</strong> ——❯
+                <a style="color:darkcyan;" href="https://www.liverpoolfc.com/">
+                <img  style="width: 50px; height: 40px;" src="..\image\IMG_20231126_190816.jpg" alt="利物浦"></a></p>
+            <div style="display: flex;width: 70%;">
+                <img src="..\image\R-C (2).jpg" style="flex: 1;width: 50%;height: 400px;">
+                <img src="..\image\R-C (5).jpg" style="flex: 1;width: 50%;height: 400px;">
+            </div>
+            <br>
+        <li style="font-size: 20px;">纪录片</li>
+                <ul>
+                <li>
+                    <a style="color: rgb(13, 208, 222);" href="https://www.bilibili.com/bangumi/play/ss39247?spm_id_from=333.337.0.0">人间世</a>
+                    <p>展现一个真实的人间世态</p>
+                </li>
+                <li>
+                    <a  style="color: rgb(13, 208, 222) ;" href="https://v.cctv.com/2022/07/15/VIDEr8lUhkGhJbVBuxGkxFxZ220715.shtml?spm=C90324.PVS6YyMoJJqk.EihQ4CdAnH0V.1">人生第二次</a>
+                    <p>串联起我们人生各个节点，拼接起中国人风景的真实样貌</p>
+                </li>
+
+                <li>
+                    <a  style="color: rgb(13, 208, 222);" href="https://www.bilibili.com/bangumi/play/ss20302?spm_id_from=333.337.0.0">地球脉动</a>
+                    <p>跟随镜头探索这颗星球上最后的天然野境，领略野生动物进化出的绝妙生存策略。</p>
+                </li>
+                </ul>
+                <p style="background-color: rgba(51, 227, 240, 0.228);width:50%;">&emsp;&emsp;纪录片是一扇窗，打开了我们的视野。虽然它并不能让我们对它所呈现的东西有个多么彻底的体会或者掌握，但是我们通过不同人事物的了解，能够让我们的视野遍布到更多的维度，也让我们对风景的思考，对世界的探索，有了更多发现和选择的可能性</p>
+                </div>
+        </li>
+    </ul>
+</div>
+<hr/>
+
+<div class="jiaoyujl">
+    <h2>教育经历</h2>
+    <ul>
+        <li>
+            <p>2020~2023 蕲春县第一高级中学</p>
+        </li>
+        <li>
+            <p>2023~ 华中科技大学</p>
+        </li>
+    </ul>
+</div>
+<hr>
+
+</div>
+<div style="text-align: center;background-color:rgb(133, 208, 225);" class="footer">
+  <p style="font-size: 15%;color: rgb(5, 63, 51);">@hustcsczh</p>
+</div>
+
+</body>
+</html>

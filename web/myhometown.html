@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<head>
+        <style type="text/css">
+            body 
+            {
+                background-image: url('../image/980.jpg');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+        </style>
+</head>
+
+<body>
+<style>
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color:rgb(218, 200, 160);/*背景*/
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color:rgb(146, 129, 96);/*除了下拉其他字体颜色*/
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color:rgb(208, 232, 161);/*菜单页颜色*/
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px;
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color:rgb(247, 171, 6);/*菜单里面字体颜色*/
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/*鼠标拖到到导航鼠标悬停时块背景颜色*/
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(209, 206, 102);
+  color: white;/*此时字体颜色*/
+}
+
+.dropdown-content a:hover {
+  background-color:rgb(203, 225, 133);/*脱下导航鼠标悬停时块背景颜色*/
+  color:white;/*此时字体颜色*/
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+</head>
+
+<div class="topnav" id="myTopnav">
+    <a href="czh.html">个人介绍</a>
+   <a href="mybro.html">我和挚友</a>
+   <a href="mylife.html">校园景色</a>
+   <div class="dropdown">
+    <button class="dropbtn">我的家乡<i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="myhometown.html">家乡介绍</a>
+      <a href="myhomrtownview.html">家乡&美景</a>
+    </div>
+  </div> 
+  <a href="contactme.html">联系方式</a>
+  <div style="float:right;">
+    <a href="..\index.html">返回首页</a>
+  </div>
+</div>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<div class="massage">
+    <h2 style="text-align: center;">教授名县&emsp;医圣之乡<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;——<i>湖北省黄冈市<a style="color: black;" href="https://www.bilibili.com/video/BV1xe4y197va/?spm_id_from=333.337.search-card.all.click">蕲春县</a></i></p></h2>
+</div>
+    <p style="text-align: center;">蕲春建县于公元前201年,距今有2200多年的历史,历为州、路、府所在地,以州领县长达1080余年。明朝在蕲州设荆王府,历十代,传198年,被称为“上等州”。</p>
+    <h2 style="color:rgb(241, 137, 1);">蕲春四宝</h2>
+    <hr>
+
+    <div style="display: flex;" class="qcsb">
+
+        <style>
+            .qi a{
+                color: rgb(158, 115, 5);
+            }
+        </style>
+
+        <div style="width: 25%;height: 400px;" class="qi">
+            <a href="https://baike.baidu.com/item/%E8%95%B2%E6%98%A5%E8%89%BE%E8%8D%89/7458095">蕲艾</a>
+            <br>
+            <img src="../image\4b90f603738da9773e63b34fb051f8198618e301.jpg" alt="qiai">
+            <p style="width: 350px;" ><b>&emsp;&emsp;李时珍</b>在《本草纲目》中写道：“艾叶自成化以来,则以蕲州者为胜,用充方物,天下重之,谓之蕲艾。</p>
+        </div>
+        <div style="width: 25%;height: 400px;" class="qi">
+            <a href="https://baike.baidu.com/item/%E8%95%B2%E7%AB%B9?fromModule=lemma_search-box">蕲竹</a>
+            <br>
+            <img style="height: 240px;" src="../image\4b90f603738da9777368042bb651f8198618e36f.jpg" alt="qizhu">
+           <p style="width: 350px;">&emsp;&emsp;蕲竹,又名笛竹,是全世界约一千多种竹中的一种最珍稀的良种竹,其色泽晶莹,竹节稀疏,形状奇特,久负盛名</p>
+        </div> 
+        <div style="width: 25%;height: 400px;" class="qi">
+            <a href="https://baike.baidu.com/item/%E8%95%B2%E9%BE%9F/6071613">蕲龟</a>
+           <br>
+            <img style="height: 240px;" src="../image\faedab64034f78f04c21824f77310a55b3191c67 (1).webp" alt="qi">
+            <p style="width: 350px;">&emsp;&emsp;蕲龟产于蕲州者,颇为奇特,故又名曰：“蕲龟”。蕲龟形状与普通龟相似,惟背甲生着细长而浓密的绿色绒毛。故又名曰：“绿毛龟”。</p>
+        </div>
+         <div style="width: 25%;height: 400px;" class="qi">
+            <a href="https://baike.baidu.com/item/%E5%B0%96%E5%90%BB%E8%9D%AE/1639651?fromModule=lemma_search-box&fromtitle=%E8%95%B2%E8%9B%87&fromid=667920">蕲蛇</a>
+           <br>
+            <img style="height: 240px;" src="../image\6d81800a19d8bc3eb135442a9fdcb11ea8d3fc1fef8e.jpg" alt="qiai">
+            <p style="width: 350px;" >&emsp;&emsp;<b>《本草纲目》:</b>能透骨搜风,截惊定搐,为风痹、惊搐、癞癣、恶疮要药,取其内走脏腑,外彻皮肤,无处不到也</p>
+        </div>
+    </div>  
+
+<div>
+    <h2 style="color:rgb(241, 137, 1);">教授名县</h2>
+    <hr>
+    <div class="jieshao">
+        <p>
+            &emsp;&emsp;截止2012年,蕲春籍教授、副教授人数达到4300多位(县博物馆统计数据),遍布海内外,故有“教授县”美誉。其中蕲州东长街走出教授博士126位,有“博士街”之称。赤东镇范铺村堪称“教授县”里的“教授村”,110多位专家、教授出自同一个村。蕲春县教育部门现已核实,北京大学有蕲春籍教授15人,武汉大学和华中科技大学各有蕲春籍教授50人,全国大学100强中有蕲春籍教授260人,享受国务院颁发的政府特殊津贴有突出贡献的专家学者31人。与江西省的临川县、江苏省的宜兴市,并称为“中国三大人才之乡”。</p>
+    </div>
+</div>
+<div style="height: 400px;" class="jieshao">
+    <style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img style="height: 300px;" src="../image/luo.webp" alt="luo" style="width:100%">
+      <div class="container">
+        <h2>骆清铭</h2>
+        <p>中科院院士,曾任华科大副校长</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img style="height: 300px;" src="../image\10.webp" alt="li" style="width:100%">
+      <div class="container">
+        <h2>李敬一</h2>
+        <p>武汉大学新闻与传播系教授,百家讲坛主讲人</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img style="height: 300px;" src="../image\w.webp" alt="John" style="width:100%">
+      <div class="container">
+        <h2>汪潮涌</h2>
+        <p>信中利资本集团董事长</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="lsz">
+    <h2 style="color:rgb(241, 137, 1);" >医圣之乡</h2>
+    <hr>
+    <div class="LISHIZHEN">
+        <h3>明代医圣<b style="color: rgb(130, 90, 16);">李时珍</b>故里</h3>
+        <div style="width: 100%;height: 400px;" class="tulisz">
+            <img  style="height: 350px;width: 20%;" src="../image\li.webp" alt="lishizhne">
+            <p style="font-size: 22px;  width: 75%;float:right;text-align:left;margin-right:50px;color:rgb(24, 20, 14);">&emsp;&emsp;李时珍出身于世医家庭，从小就喜爱医药,立志悬壶济世。经过刻苦学习，<br>和实践，在三十岁时已经成为当地名医。后楚王聘李时珍到王府掌管良医所事<br>务。三年后，又推荐其上京任太医院判后经举荐补太医院之阙，一年后辞职回<br>家，在此期间，李时珍阅读王府和太医院中大量的医书,医学水平大增。自1565<br>年起，先后到武当山、庐山、茅山、牛首山等地收集药物标本和处方，并拜渔<br>人、樵夫、农民、车夫、药工、捕蛇者为师，记录上千万字札记，历经二十七<br>个寒暑,三易其稿,于明万历十八年(1590年)完成了192万字的巨著<br>《本草纲目》。<br>1593年,李时珍逝世。</p>
+            <p style="float:inline-start">——李生为人纤介婉，大医卓然名不朽</p>
+            <br>
+
+        </div>
+    </div>
+</div>
+<div style="text-align: center;background-color:rgb(230, 179, 87);" class="footer">
+  <p style="font-size: 15%; text-align: center; color: rgb(5, 63, 51);">hustcsczh</p>
+</body>
+</html>
